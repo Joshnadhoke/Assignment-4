@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; 
+    
+}
+
+
+.Parent-cont{
+    width: 100%;
+    height: 100%;
+   
+    
+}
+.child-cont1{
+    width: 100%;
+    height: 35%;
+    background-image: url("https://miro.medium.com/v2/resize:fit:2000/1*hoiU3e9yUQmmUlpCyJ-ZpA.jpeg");
+    background-size: cover;
+}
+.child-cont2{
+    width: 100%;
+    height: 65%;
+    background-color: black;
+  
+}
+.child-cont2-top{
+    width: 100%;
+    height: 20%;
+    
+   
+}
+.h3{
+    color: white;
+    text-align: center;
+    padding: 20px;
+
+    
+}
+.child-cont2-bottom{
+    width: 100%;
+    height: 80%;
+    padding: 20px;
+
+}
+.child-cont2-bottom-1{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.box{
+
+    width: 100%;
+    height: 33%;
+    
+    display: flex ;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+   
+}
+ .B1{
+    width: 20% ;
+    height: 100%;
+    margin-left: 5px;
+   
+}
+
+i{
+   color: rgb(12, 12, 12);
+   font-size: 40px;
+   margin: 10px;
+}
+
+.P{
+    width:80% ;
+    height: 100%;
+   
+}
+h2{
+    padding: 10px;
+}
+
+.pra{
+    color: darkslateblue;
+    margin-left: 5px;
+}
+  
+ 
+
+   @media (min-width:1024px) {
+    .Parent-cont{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+
+       
+        
+    }
+    .child-cont1{
+        width: 45%;
+        height: 100%;
+        background-image: url("https://miro.medium.com/v2/resize:fit:2000/1*hoiU3e9yUQmmUlpCyJ-ZpA.jpeg");
+        background-size: cover;
+    }
+    .child-cont2{
+        width: 55%;
+        height: 100%;
+        background-color: black;
+      
+    }
+    .child-cont2-top{
+        width: 100%;
+        height: 15%;
+        
+       
+    }
+    .h3{
+        color: white;
+        font-size: 30px;
+        padding: 20px;
+    
+        
+    }
+    .child-cont2-bottom{
+        width: 100%;
+        height: 55%;
+        padding: 20px;
+    
+    }
+
+
+}  
+
+
+ 
